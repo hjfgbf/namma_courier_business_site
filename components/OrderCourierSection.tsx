@@ -1,0 +1,129 @@
+'use client';
+
+import React from 'react';
+import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+
+import 'swiper/css';
+
+const baseLogosRow1 = [
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Ekart-1.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-167-1.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-3371.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-166.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-337.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-165.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Professional.png.webp',
+];
+
+const baseLogosRow2 = [
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-3361.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Elastic-Run.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-339.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-168.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Delhivery-1.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Ekart-1.png.webp',
+    'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-3371.png.webp',
+];
+
+const logosRow1 = Array(6).fill(baseLogosRow1).flat();
+const logosRow2 = Array(6).fill(baseLogosRow2).flat().reverse();
+
+export default function OrderCourierSection() {
+    return (
+        <section className="w-full py-14 md:py-[70px] relative overflow-hidden bg-gradient-to-br from-[#e8eef7] via-[#f5f7fa] to-[#fef3e8]">
+            <div className="max-w-[1400px] mx-auto px-4 text-center mb-12 md:mb-12 relative z-10">
+                <h2 className="text-[#1e3a8a] text-[28px] md:text-[38px] font-bold leading-tight mb-5">
+                    <span className="text-[#1e3a8a]">Track Shipments from </span>
+                    <span className="text-[#f59e0b]">Top Couriers</span>
+                </h2>
+                <p className="mt-6 md:mt-0 text-[#1e3a8a] font-semibold text-[16px] md:text-[18px]">
+                    Stay updated on your orders with NimbusPost courier tracking system.
+                </p>
+            </div>
+
+            {/* Swiper Row 1 */}
+            <div className="w-full mb-7 md:mb-8 relative z-10">
+                <Swiper
+                    modules={[Autoplay]}
+                    spaceBetween={14}
+                    slidesPerView={3}
+                    loop={true}
+                    speed={12000}
+                    autoplay={{
+                        delay: 0,
+                        disableOnInteraction: false,
+                        pauseOnMouseEnter: false,
+                    }}
+                    allowTouchMove={false}
+                    breakpoints={{
+                        640: { slidesPerView: 3, spaceBetween: 20 },
+                        768: { slidesPerView: 5, spaceBetween: 40 },
+                        1024: { slidesPerView: 7, spaceBetween: 40 },
+                    }}
+                    className="w-full linear-swiper px-4"
+                >
+                    {logosRow1.map((url, index) => (
+                        <SwiperSlide key={index} className="!w-auto flex justify-center">
+                            <div className="bg-white rounded-[6px] border-none shadow-none p-0 w-[160px] h-[50px] md:h-[60px] flex items-center justify-center">
+                                <Image
+                                    src={url}
+                                    alt="Courier Partner"
+                                    width={150}
+                                    height={60}
+                                    className="object-contain w-full h-auto"
+                                />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+
+            {/* Swiper Row 2 */}
+            <div className="w-full relative z-10">
+                <Swiper
+                    modules={[Autoplay]}
+                    spaceBetween={14}
+                    slidesPerView={3}
+                    loop={true}
+                    speed={12000}
+                    autoplay={{
+                        delay: 0,
+                        disableOnInteraction: false,
+                        pauseOnMouseEnter: false,
+                        reverseDirection: true,
+                    }}
+                    allowTouchMove={false}
+                    breakpoints={{
+                        640: { slidesPerView: 3, spaceBetween: 20 },
+                        768: { slidesPerView: 5, spaceBetween: 40 },
+                        1024: { slidesPerView: 7, spaceBetween: 40 },
+                    }}
+                    className="w-full linear-swiper px-4"
+                >
+                    {logosRow2.map((url, index) => (
+                        <SwiperSlide key={index} className="!w-auto flex justify-center">
+                            <div className="bg-white rounded-[6px] border-none shadow-none p-0 w-[160px] h-[50px] md:h-[60px] flex items-center justify-center">
+                                <Image
+                                    src={url}
+                                    alt="Courier Partner"
+                                    width={150}
+                                    height={60}
+                                    className="object-contain w-full h-auto"
+                                />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+
+            <style jsx global>{`
+                .linear-swiper .swiper-wrapper {
+                    transition-timing-function: linear !important;
+                    -webkit-transition-timing-function: linear !important;
+                }
+             `}</style>
+        </section>
+    );
+}

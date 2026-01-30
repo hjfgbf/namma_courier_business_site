@@ -34,10 +34,10 @@ export default function BlogSection() {
             <div className="max-w-[1400px] mx-auto px-6 md:px-6 lg:px-8">
                 <div className="text-center mb-9 md:mb-12">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight md:leading-normal">
-                        Read the Latest in <span className="text-[#f59e0b]">eCommerce Logistics</span>
+                        Read the Latest in <span className="text-[#f59e0b]">Logistics Excellence</span>
                     </h2>
                     <p className="mt-4 md:mt-0 text-[#1e3a8a] font-semibold text-[16px] md:text-[18px]">
-                        Explore our blog for game-changing ideas, insights, tips, and trends
+                        Explore our insights for high-growth strategies, industry trends, and shipping mastery.
                     </p>
                 </div>
 

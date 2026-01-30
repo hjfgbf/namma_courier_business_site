@@ -6,29 +6,29 @@ import Image from 'next/image';
 const features = [
     {
         id: 0,
-        title: 'See real-time rates across couriers',
-        description: 'Instantly compare prices from top couriers',
+        title: 'Instant Multi-Carrier Comparison',
+        description: 'View real-time rates from the industry’s top-tier couriers side-by-side.',
         image: '/image1.png',
     },
     {
         id: 1,
-        title: 'Avoid RTOs with smarter decisions',
-        description: 'Match the shipping mode based on your customers’ expectations',
+        title: 'Optimize Deliveries, Reduce RTOs',
+        description: 'Make data-backed decisions on shipping modes to ensure high success rates.',
         image: '/image2.png',
     },
     {
         id: 2,
-        title: 'No more manual estimates',
-        description: 'Calculate the accurate rate depending on your parcel’s volumetric weight',
+        title: 'Automated Volumetric Precision',
+        description: 'Eliminate manual errors with automated calculations based on parcel dimensions.',
         image: '/image3.png',
     },
     {
         id: 3,
-        title: 'Choose the best courier option for every order',
-        description: 'Know which courier is the most economical and fastest before booking an order',
+        title: 'Best-Fit Carrier Selection',
+        description: 'Instantly identify the most economical and fastest shipping route for every pin code.',
         image: '/image4.png',
     },
-];
+]
 
 export default function SmarterShippingSection() {
     const [activeTab, setActiveTab] = useState(0);
@@ -36,7 +36,7 @@ export default function SmarterShippingSection() {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveTab((prev) => (prev + 1) % features.length);
-        }, 3000);
+        }, 4000);
 
         return () => clearInterval(interval);
     }, []);
@@ -46,8 +46,8 @@ export default function SmarterShippingSection() {
             <div className="max-w-[1400px] mx-auto px-5 md:px-8">
                 <div className="text-center mb-10 md:mb-12">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight">
-                        Built for Sellers Who Want <br />
-                        <span className="text-[#f59e0b]">Smarter Shipping</span>
+                        Logistics Solutions Built for <br />
+                        <span className="text-[#f59e0b]">Operational Excellence</span>
                     </h2>
                 </div>
 

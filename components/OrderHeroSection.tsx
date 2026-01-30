@@ -11,11 +11,11 @@ export default function OrderHeroSection() {
                 <div className="flex flex-col lg:flex-row items-start justify-between gap-10 md:gap-0">
                     <div className="w-full lg:w-[500px] text-center md:text-left">
                         <h1 className="text-[30px] md:text-[50px] font-bold leading-tight mb-5">
-                            <span className="text-[#f59e0b]">Stay on Top </span>
-                            <span className="text-[#1e3a8a]">of Your Delivery</span>
+                            <span className="text-[#f59e0b]">Real-Time </span>
+                            <span className="text-[#1e3a8a]">Visibility for Every Shipment</span>
                         </h1>
                         <p className="text-[#1e3a8a] text-[15.5px] md:text-[17.5px] font-semibold max-w-[500px]">
-                            Track your order's status effortlessly with the NimbusPost tracking tool.
+                            Stay informed at every turn. Use the உங்கள் Thoothuvan intelligent tracking engine to monitor your delivery progress.
                         </p>
                     </div>
 

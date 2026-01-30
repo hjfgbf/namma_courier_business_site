@@ -4,62 +4,62 @@ import Image from 'next/image';
 const features = [
     {
         id: 1,
-        title: "Lowest Shipping Rates",
-        description: "Pay less with our pre-negotiated shipping rates for better margins, more room for discounts, and happier customers. Start shipping for as low as ₹19/500gm*.",
+        title: "Unbeatable Shipping Rates",
+        description: "Maximize your margins with our pre-negotiated rates. As your growth partner, we offer shipping starting as low as ₹19/500gm*, giving you more room to scale.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-2147233794.png"
     },
     {
         id: 2,
-        title: "Multiple Pickup Locations",
-        description: "Easily add multiple pickup locations to speed up shipments. Reduce delays and get products out faster by picking up from the closest spot.",
+        title: "Multi-Hub Pickups",
+        description: "Add multiple pickup locations effortlessly. Speed up your fulfillment by picking up from the location closest to your inventory or supply source.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337941.png"
     },
     {
         id: 3,
-        title: "Faster COD Payouts",
-        description: "Get your COD payouts in as fast as one day. Forget chasing payments and unlock working capital at the earliest to move your business smoothly.",
+        title: "Lightning-Fast COD Payouts",
+        description: "Don't let your capital get stuck. Get your COD remittances in as fast as 24 hours, so you can reinvest in your business without the wait.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337942.png"
     },
     {
         id: 4,
-        title: "Weight Freezing Protection",
-        description: "Lock in deadweight and dimensions upfront to ensure couriers charge as per your preset specifications, and avoid mismatches, overcharges, or disputes.",
+        title: "Smart Weight Protection",
+        description: "Stop worrying about weight disputes. Lock in your dimensions upfront to ensure you are charged exactly what you expect, with no hidden surprises.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337943.png"
     },
     {
         id: 5,
-        title: "Insurance Cover",
-        description: "Get security coverage up to ₹2500 to protect your shipments against loss or damage and save on unexpected costs because we've got your back, always.",
+        title: "Transit Insurance Cover",
+        description: "Your peace of mind matters. Protect your shipments against loss or damage with coverage up to ₹2500, because your messenger always has your back.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337944.png"
     },
     {
         id: 6,
-        title: "Reduce RTO Smartly",
-        description: "Confirm COD orders and addresses upfront. Block high-RTO pin codes, enable automated NDR follow-ups, and use smart allocation to slash returns and ensure successful deliveries.",
+        title: "Intelligent RTO Reduction",
+        description: "Slash returns using our smart verification tools. Block high-risk pin codes and automate NDR follow-ups to ensure your orders reach their destination.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-2147233794-1.png"
     },
     {
         id: 7,
-        title: "Easy Reverse Pickup with QC",
-        description: "Simplify returns with seamless reverse pickups and quality checks. Save time, reduce costs, and restock only what meets your standards.",
+        title: "Quality-Checked Returns",
+        description: "Simplify reverse logistics. Our seamless return process includes quality checks, ensuring you only restock items that meet your standards.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337946.png"
     },
     {
         id: 8,
-        title: "Transparent Billing & Weight Details",
-        description: "View complete billing and shipment weight info in one place. Catch mismatches early, avoid hidden charges, and keep your shipping costs fully in check.",
+        title: "100% Billing Transparency",
+        description: "No hidden fees, ever. Access a consolidated view of all your shipping costs and weights to keep your business finances crystal clear.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337947.png"
     },
     {
         id: 9,
-        title: "Dedicated Account Manager",
-        description: "Get your personal shipping guide. Resolve courier issues faster, optimize operations, and boost delivery success with expert support every day.",
+        title: "Personal Account Managers",
+        description: "You're not just a ticket number. Get a dedicated shipping expert to help you optimize operations and resolve any courier hurdles instantly.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-21472337948.png"
     },
     {
         id: 10,
-        title: "Proactive Support",
-        description: "Reach our customer success team for quick resolutions from real people. Our 3-tier support ensures smooth shipping and uninterrupted business.",
+        title: "Hyper-Responsive Support",
+        description: "Real people, real solutions. Our 3-tier proactive support team is always ready to ensure your shipping flow remains uninterrupted.",
         image: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2026/01/Frame-2147233795.png"
     }
 ];
@@ -74,7 +74,7 @@ export default function FeaturesGrid() {
                         <span className="text-[#1e3a8a]">Your Business Deserves</span>
                     </h2>
                     <p className="text-[#1e3a8a] text[14px] md:text-[16.5px] tracking-wide font-semibold max-w-[900px] mx-auto leading-relaxed">
-                        Boost your delivery performance and delight customers with powerful tools built to reduce friction, minimize losses, and improve every step of your shipping flow.
+                        உங்கள் Thoothuvan provides a powerhouse of features designed to eliminate friction, minimize losses, and fuel your brand’s growth across every corner of the country.
                     </p>
                 </div>
 

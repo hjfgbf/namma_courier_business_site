@@ -1,31 +1,31 @@
 'use client';
 
 import React from 'react';
-import { Scale, ClipboardList, LayoutDashboard, MapPin, Truck, Wallet } from 'lucide-react';
+import { Scale, ClipboardList, Box, MapPin, Truck, Wallet } from 'lucide-react';
 
 const impactFeatures = [
     {
-        title: 'Dead Weight of the Package',
+        title: 'Actual Gross Weight',
         icon: Scale,
     },
     {
-        title: 'Shipping Plan',
+        title: 'Tiered Shipping Plans',
         icon: ClipboardList,
     },
     {
-        title: 'Dimensions of the Package',
-        icon: LayoutDashboard,
+        title: 'Volumetric Dimensions',
+        icon: Box,
     },
     {
-        title: 'Shipping Mode',
+        title: 'Service Speed (Express/Surface)',
         icon: Truck,
     },
     {
-        title: 'Pickup & Delivery Area Distance',
+        title: 'Zone-based Distance',
         icon: MapPin,
     },
     {
-        title: 'Payment Mode',
+        title: 'Payment Type (COD vs Prepaid)',
         icon: Wallet,
     },
 ];
@@ -37,10 +37,10 @@ export default function PricingImpactSection() {
                 <div className="flex flex-col md:flex-row items-center text-center md:text-start gap-10 md:gap-0">
                     <div className="w-full md:w-[575px]">
                         <h2 className="w-full md:w-[70%] text-[28px] md:text-[38px] font-bold text-white leading-tight mb-5">
-                            Factor In Everything that Impacts Your Bottom Line
+                            Master the Variables That Impact Your Bottom Line
                         </h2>
                         <p className="text-white text-[15px] md:text-[17px] font-semibold leading-relaxed max-w-[550px] ">
-                            Shipping costs aren’t just about the distance. Leverage our rate calculator to get a complete cost breakdown — so you know precisely what you’re paying for before shipping an order.
+                            Transparent pricing starts with understanding the details. உங்கள் Thoothuvan factors in every metric - from weight to destination zones - so you can budget with 100% accuracy.
                         </p>
                     </div>
 

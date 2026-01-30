@@ -39,7 +39,7 @@ export default function OrderCourierSection() {
                     <span className="text-[#f59e0b]">Top Couriers</span>
                 </h2>
                 <p className="mt-6 md:mt-0 text-[#1e3a8a] font-semibold text-[16px] md:text-[18px]">
-                    Stay updated on your orders with NimbusPost courier tracking system.
+                    Stay updated on your orders with உங்கள் Thoothuvan courier tracking system.
                 </p>
             </div>
 

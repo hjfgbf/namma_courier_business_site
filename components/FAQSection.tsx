@@ -6,53 +6,53 @@ import { HiPlus, HiMinus } from 'react-icons/hi';
 const faqData = [
     {
         id: 1,
-        question: "1. How many courier partners can I access through NimbusPost?",
-        answer: "We offer integration with 25+ national and regional courier partners, allowing you to choose the most suitable option based on location, cost, and delivery speed."
+        question: "1. How many courier partners can I access through உங்கள் Thoothuvan?",
+        answer: "We offer integration with over 25+ top national and regional courier partners, giving you the power to choose based on location, cost, and delivery speed."
     },
     {
         id: 2,
         question: "2. Can I choose a different courier for every order?",
-        answer: "Yes, you can. The platform allows you to assign different couriers for each shipment, giving you the flexibility to optimize cost and performance."
+        answer: "Absolutely. Our platform gives you total flexibility to assign specific couriers for each shipment to optimize performance and reduce costs."
     },
     {
         id: 3,
         question: "3. How does having multiple courier options benefit my business?",
-        answer: "Access to multiple couriers means better serviceability, competitive shipping rates, faster delivery options, and a lower risk of delays or non-serviceable pin codes."
+        answer: "It ensures better serviceability across India, competitive rates, faster delivery times, and eliminates the risk of 'non-serviceable' pin code issues."
     },
     {
         id: 4,
         question: "4. Can I send cash-on-delivery (COD) orders through your platform?",
-        answer: "Yes, we support COD shipping across a wide serviceable network, and you can track remittances directly from your dashboard."
+        answer: "Yes, we support COD shipping across our entire network, and you can track your remittances and cash flow directly from your dashboard."
     },
     {
         id: 5,
         question: "5. How is the best courier selected for an order?",
-        answer: "Our automated courier allocation engine follows the rules and priorities you set. It smartly assigns the most suitable courier based on your preferences."
+        answer: "Our smart AI allocation engine follows the priority rules you set, automatically assigning the most suitable courier for every unique destination."
     },
     {
         id: 6,
         question: "6. Can I track all shipments in one place?",
-        answer: "Yes. Our unified dashboard lets you track all your shipments in real time, regardless of the courier partner."
+        answer: "Yes. Our unified dashboard consolidates tracking data from all courier partners into one real-time view for you and your customers."
     },
     {
         id: 7,
         question: "7. What happens if a courier is not available for a specific pin code?",
-        answer: "Our system automatically filters and suggests only those courier partners who service the destination pin code, so you never waste time checking availability manually."
+        answer: "உங்கள் Thoothuvan automatically suggests only the partners who service that specific area, saving you the time of manual checking."
     },
     {
         id: 8,
         question: "8. How are courier charges calculated?",
-        answer: "Shipping charges are based on origin-destination pin codes, package deadweight and dimensions, and the selected courier’s rate card. You can view estimated costs before confirming the shipment."
+        answer: "Charges are based on real-time rate cards, package weight, dimensions, and distance. You can use our Rate Calculator to see estimates before you ship."
     },
     {
         id: 9,
         question: "9. Is there support for return and exchange shipments?",
-        answer: "Yes, we offer pickup and delivery support for returns and exchanges, including reverse logistics across major pin codes."
+        answer: "Yes, we handle full reverse logistics, including doorstep quality checks for returns and exchanges across major pin codes."
     },
     {
         id: 10,
         question: "10. Can I integrate your courier solution with my online store?",
-        answer: "Absolutely. We support integrations with major eCommerce platforms and marketplaces, allowing you to sync orders and streamline fulfillment."
+        answer: "Definitely. We provide seamless integration with major eCommerce platforms like Shopify, WooCommerce, and various marketplaces to sync your orders automatically."
     }
 ];
 

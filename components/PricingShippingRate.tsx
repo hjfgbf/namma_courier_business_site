@@ -6,22 +6,22 @@ import Image from 'next/image';
 const steps = [
     {
         id: '01',
-        title: 'Enter Pickup & Delivery Pin Codes',
-        description: 'Tell us where the package is coming from and where it’s going',
+        title: 'Define Your Route',
+        description: 'Simply enter the origin and destination pin codes to establish your delivery zone.',
         image: '/Step-1.png',
         alt: 'Enter Area Pincode',
     },
     {
         id: '02',
-        title: 'Add the Package Weight',
-        description: 'Input the estimated weight in kilograms',
+        title: 'Input Gross Weight',
+        description: 'Provide the actual weight of your shipment to start the rate calculation process.',
         image: '/step-2.png',
         alt: 'Package Weight',
     },
     {
         id: '03',
-        title: 'Fill in Package Dimensions',
-        description: 'Length, width, and height (in cm) for volumetric weight calculation',
+        title: 'Calculate Volumetric Data',
+        description: 'Enter dimensions (L x W x H) to ensure you get the most accurate, penalty-free quote.',
         image: '/step-3.png',
         alt: 'Package Dimensions',
     },
@@ -33,10 +33,10 @@ export default function PricingShippingRate() {
             <div className="max-w-[1400px] mx-auto px-5 md:px-10">
                 <div className="text-center mb-14">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight mb-2">
-                        Get Your Shipping Rates in <span className="text-[#f59e0b]">3 Easy Steps</span>
+                        Instant Shipping Quotes in <span className="text-[#f59e0b]">3 Simple Steps</span>
                     </h2>
                     <p className="text-[#1e3a8a] text-[15.5px] md:text-[17.5px] font-semibold max-w-[1200px] mx-auto">
-                        No guesswork, no spreadsheets—just enter a few basic shipment details and get instant courier rate comparisons.
+                        Input your shipment metrics and compare real-time rates across multiple top-tier carriers instantly.
                     </p>
                 </div>
 

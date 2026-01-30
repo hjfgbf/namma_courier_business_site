@@ -35,8 +35,8 @@ export default function PricingCourierPartner() {
         <section className="w-full py-14 md:py-20 relative overflow-hidden bg-gradient-to-br from-[#e8eef7] via-[#f5f7fa] to-[#fef3e8]">
             <div className="max-w-[1400px] mx-auto px-4 text-center mb-10 md:mb-12 relative z-10">
                 <h2 className="text-[#1e3a8a] text-[28px] md:text-[38px] font-bold leading-tight md:mb-2">
-                    <span className="text-[#1e3a8a]">Compare Rates Across Leading</span> <br className="hidden md:block" />
-                    <span className="text-[#f59e0b]">Courier Partners</span>
+                    <span className="text-[#1e3a8a]">Compare Pricing Across Top-Tier</span> <br className="hidden md:block" />
+                    <span className="text-[#f59e0b]">Shipping Experts</span>
                 </h2>
             </div>
 

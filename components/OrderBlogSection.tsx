@@ -34,10 +34,10 @@ export default function OrderBlogSection() {
             <div className="max-w-[1400px] mx-auto px-6 md:px-6 lg:px-8">
                 <div className="text-center mb-9 md:mb-12">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight md:leading-normal">
-                        <span className="text-[#f59e0b]">Tracking 101:</span> Your Go-To Guide
+                        <span className="text-[#f59e0b]">Mastering Logistics: </span>Expert Insights
                     </h2>
                     <p className="mt-4 md:mt-0 text-[#1e3a8a] font-semibold text-[16px] md:text-[18px]">
-                        Get an inside scoop on tracking your orders like a pro.
+                        In-depth guides and industry secrets to help you navigate the world of shipping.
                     </p>
                 </div>
 

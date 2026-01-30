@@ -30,44 +30,44 @@ export default function TestimonialSection() {
     const testimonialSlides = [
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-5521.png.webp',
-            text: 'The best part of partnering with NimbusPost is that their responsive team provides great support. It feels like I’m dealing with real people instead of just raising tickets and escalations online. A huge shoutout to the team for their continued support.',
-            name: 'Aman Patial',
+            text: 'What sets உங்கள் Thoothuvan apart is their commitment to being a "messenger" first. They treat every parcel like it’s their own. The transition was smooth, and their support is always just a call away.',
+            name: 'Arun Kumar',
             company: 'K9 Vitality'
         },
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-5531.png.webp',
-            text: 'NimbusPost has helped us automate supply chain management and provides real-time access to analytics. Their support benefits are exceptional and facilitate a seamless communication flow.',
-            name: 'Hiren Sheta',
+            text: 'We needed a logistics partner that understands the speed of modern eCommerce. உங்கள் Thoothuvan delivered exactly that. Their platform is intuitive, and the automated tracking has saved us hours of manual work.',
+            name: 'Karthik Raja',
             company: 'Alpino Foods Pvt. Ltd.'
         },
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-5541.png.webp',
-            text: 'NimbusPost has been a game-changer for our brand. Fewer weight disputes, faster deliveries, and lower RTOs have boosted customer trust. Their support team and KAM are always helpful. Love their can-do attitude. Excited to grow with them!',
-            name: 'Chintan Jani',
+            text: 'Finally, a shipping partner that doesn’t hide behind a ticketing system. With உங்கள் Thoothuvan, we have a real partner helping us reduce RTOs and scale our reach across every pin code.',
+            name: 'Senthil Nathan',
             company: 'Sparkup.in'
         },
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-5551.png.webp',
-            text: 'With NimbusPost, our RTO percentage is at an all-time low, and our customers are super happy with the delivery speed. They’re the most ideal shipping partner.',
-            name: 'Neha Aggarwal',
+            text: 'The delivery speed is impressive, but it’s the transparency that won us over. No hidden fees or weight surprises. உங்கள் Thoothuvan has made our shipping process completely stress-free.',
+            name: 'Priyanka M.',
             company: 'Clapjoy'
         },
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-5561.png.webp',
-            text: 'NimbusPost’s advanced analytics and smart pricing have helped us improve and penetrate our online eCommerce business.',
-            name: 'Shreesh Gawdi',
+            text: 'Choosing உங்கள் Thoothuvan was the best decision for our expansion. Their smart routing ensures our products reach customers via the fastest possible path, keeping our ratings high.',
+            name: 'Vijay Ram',
             company: 'Candor Foods'
         },
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/gudgum.png.webp',
-            text: 'Great consumer support. One of the best shipping aggregators in India. The rates are very competitive as well. The dashboard UI is very simple.',
-            name: 'M. Shashi',
+            text: 'Efficient, reliable, and incredibly supportive. As a growing brand, we needed someone who grows with us. உங்கள் Thoothuvan provides the premium service we were looking for at great rates.',
+            name: 'M. Selvam',
             company: 'GudGum'
         },
         {
             logo: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/peach.png.webp',
-            text: 'Excellent communication and services. Everything is smooth. Issues get resolved quick without any complications like in any other aggregators. Have suggested NimbusPost to other business owners as well.',
-            name: 'Ankit',
+            text: 'The level of care shown by the உங்கள் Thoothuvan team is unmatched. From pickup to delivery, the communication is proactive, ensuring both we and our customers are always in the loop.',
+            name: 'Bharat Govindan',
             company: 'Peachy House'
         }
     ];
@@ -80,12 +80,12 @@ export default function TestimonialSection() {
         <section className="w-full pt-12 pb-16 md:py-20 text-white relative elementor-section bg-gradient-to-br from-[#0f2557] via-[#1e3a8a] to-[#2563eb]">
             <div className="max-w-[1400px] mx-auto px-4 md:px-6 relative z-10">
                 <div className="text-center mb-12 md:mb-16">
-                    <h2 className="text-[28px] md:text-[38px] font-bold mb-3 md:mb-2 leading-tight">
-                        Don’t Take Our Word for It — Take Theirs
+                    <h2 className="text-[28px] md:text-[38px] font-bold mb-3 leading-tight">
+                        Built for Your Growth, Backed by Commitment
                     </h2>
                     <p className="text-[15.5px] md:text-[17px] font-semibold tracking-wide leading-snug">
-                        Watch what happens when eCommerce logistics <br className="hidden md:block" />
-                        turns into a growth advantage
+                        We are on a mission to redefine logistics in Tamil Nadu. <br className="hidden md:block" />
+                        See the standards we promise to every partner.
                     </p>
                 </div>
 

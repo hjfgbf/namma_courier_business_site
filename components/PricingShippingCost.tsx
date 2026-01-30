@@ -5,33 +5,33 @@ import { Scaling, Banknote, MessageSquareText, PackageOpen, MapPin, ClipboardChe
 
 const features = [
     {
-        title: 'Measure Accurately to Avoid Volumetric Surprises',
-        description: 'Couriers charge shipping rates based on whichever is higher — the actual or volumetric weight. Use proper tools to measure your package and avoid penalties.',
+        title: 'Master Volumetric Calculations',
+        description: 'Couriers charge based on the higher value between actual and volumetric weight. Precise measurements help you avoid unexpected weight discrepancies and penalties.',
         icon: Scaling,
     },
     {
-        title: 'Optimize Your Packaging',
-        description: 'Avoid oversized boxes for small items. Compact packaging = lower shipping costs + better volumetric efficiency.',
+        title: 'Optimize Packaging Geometry',
+        description: 'Large boxes for small items inflate your costs. Slim down your packaging to maximize volumetric efficiency and lower your per-parcel spend.',
         icon: PackageOpen,
     },
     {
-        title: 'Compare Prepaid vs COD Carefully',
-        description: 'COD orders come with higher RTO risks and extra fees. Encourage prepaid orders with discounts or limited-time offers.',
+        title: 'Strategize Payment Methods',
+        description: 'COD orders carry higher RTO risks and processing fees. Use உங்கள் Thoothuvan to incentivize prepaid orders through targeted customer discounts.',
         icon: Banknote,
     },
     {
-        title: 'Analyze Zone-Wise Delivery Performance',
-        description: 'Use data to pick couriers that perform well in specific zones. Because better delivery success = fewer returns.',
+        title: 'Zone-Specific Carrier Routing',
+        description: 'Not all couriers are equal in every city. Align your orders with carriers that demonstrate the highest delivery success rates in specific geographic zones.',
         icon: MapPin,
     },
     {
-        title: 'Avoid RTOs with Proactive Communication',
-        description: 'Use SMS/WhatsApp updates, NDR (Non-Delivery Report) follow-ups, and address verification tools to reduce returns.',
+        title: 'Proactive NDR Management',
+        description: 'Reduce RTOs by using our automated WhatsApp and SMS updates. Real-time communication ensures customers are ready for their delivery.',
         icon: MessageSquareText,
     },
     {
-        title: 'Use Auto Order Confirmation to Reduce RTO',
-        description: 'Let us help you verify COD orders before shipping so you avoid fake orders, reduce cancellations, and cut down on costly returns.',
+        title: 'Automated Order Verification',
+        description: 'Filter out high-risk COD orders before they ship. Our verification tools help you confirm intent, reducing costly returns and fake orders.',
         icon: ClipboardCheck,
     },
 ];
@@ -42,7 +42,7 @@ export default function PricingShippingCost() {
             <div className="max-w-[1400px] mx-auto px-5 md:px-[90px]">
                 <div className="text-center mb-12 md:mb-16">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight">
-                        Want to <span className="text-[#f59e0b]">Lower Your Shipping <br className="hidden md:block" /> Costs</span> Even More?
+                        Looking to <span className="text-[#f59e0b]">Maximize Your Logistics <br className="hidden md:block" /> Savings</span> Effortlessly?
                     </h2>
                 </div>
 

@@ -11,15 +11,15 @@ export default function AllFeaturesHero() {
                     {/* Left Content */}
                     <div className="w-full md:w-1/2 z-10">
                         <h1 className="text-[30px] xl:text-[50px] text-center md:text-left font-bold leading-[1.25] md:leading-[1.2] mb-6">
-                            <span className="text-[#1e3a8a]">Your Customers Expect More. </span>
-                            <span className="text-[#f59e0b]">Let's Help You Deliver It.</span>
+                            <span className="text-[#1e3a8a]">Scale Faster with </span>
+                            <span className="text-[#f59e0b]">Smart Logistics Solutions.</span>
                         </h1>
                         <p className="text-[#1e3a8a] text-[15.5px] xl:text-[17px] text-center md:text-left font-semibold leading-normal mb-6 max-w-[550px]">
-                            Unlock powerful features that turn every delivery into a win for you and your customers.
+                            உங்கள் Thoothuvan brings you the tools big brands use. From automated tracking to seamless COD management, we handle the complexity so you can focus on selling.
                         </p>
                         <div className="flex justify-center md:justify-start">
                             <button className="mt-1 md:mt-0 bg-[#f59e0b] text-white text-[14px] xl:text-[16px] font-bold px-6 py-2 rounded-full hover:bg-[#1e3a8a] transition-colors shadow-md cursor-pointer">
-                                Try for FREE
+                                Start for FREE
                             </button>
                         </div>
                     </div>

@@ -6,39 +6,34 @@ import { HiPlus, HiMinus } from 'react-icons/hi';
 const faqData = [
     {
         id: 1,
-        question: "1. Where can I find the AWB number or order ID to track my order?",
-        answer: "Your AWB number was sent to you via SMS upon order confirmation."
+        question: "Where can I find the AWB number or Order ID to track my shipment?",
+        answer: "Your Airway Bill (AWB) number is a unique 10-15 digit code sent to your registered mobile number and email immediately after the seller confirms your order. You can also find it in the 'My Orders' section of the website where you made the purchase."
     },
     {
         id: 2,
-        question: "2. Why isn't my tracking number working?",
-        answer: "Tracking details may take up to 24 hours to update after the shipment is processed—please allow some time and check again. Additionally, ensure the tracking number was generated via NimbusPost, as numbers issued by other service providers may not be traceable through our system."
+        question: "Why isn't my tracking number showing any updates?",
+        answer: "Tracking data usually takes 12-24 hours to sync once the label is generated. If you've just received your ID, please check back after a few hours. Note: ensure you are using a valid tracking ID issued via the உங்கள் Thoothuvan network for accurate real-time results."
     },
     {
         id: 3,
-        question: "3. What do I do if my order is delayed?",
-        answer: "Please reach out to the merchant you’ve purchased the product from."
+        question: "What should I do if my order delivery is delayed?",
+        answer: "Delays can occur due to weather, high seasonal volumes, or transit hub congestion. If your order is past its Expected Delivery Date (EDD), we recommend contacting the merchant/seller directly, as they can initiate an official inquiry with our logistics team on your behalf."
     },
     {
         id: 4,
-        question: "4.  My package says delivered, but I haven't received it. What should I do?",
-        answer: "Please check with neighbors or other household members who might have received the package on your behalf. If you still can’t find it, please contact the merchant you purchased the product from."
+        question: "The status shows 'Delivered,' but I haven't received my package.",
+        answer: "Please check with your building security, reception, or neighbors first. If the package is still missing, contact the merchant immediately. We maintain digital Proof of Delivery (POD) for every shipment which can be used to verify the recipient's signature or location."
     },
     {
         id: 5,
-        question: "5. Why is my package delayed?",
-        answer: "Your package may get delayed due to unforeseen circumstances or reasons like incorrect delivery address, high order volumes, unexpected transit delays, missed delivery attempts, etc."
+        question: "Why has my package been marked as 'Returned to Origin' (RTO)?",
+        answer: "An RTO happens if the delivery agent made multiple failed attempts, the address was incomplete, or the customer was unreachable. Once a package is marked RTO, it is sent back to the seller. You will need to contact the seller to arrange a re-shipment."
     },
     {
         id: 6,
-        question: "6. How can I return my order?",
-        answer: "You may place a return request directly from the seller’s website if your order is eligible for return. For more information, you may contact the merchant via email or call."
-    },
-    {
-        id: 7,
-        question: "7. My shipment has been returned/cancelled. What should I do?",
-        answer: "Please get in touch with the merchant with whom the order was placed for further details on return or order cancellation. You may visit their website to raise your concerns via email or call."
-    },
+        question: "How can I change my delivery address mid-transit?",
+        answer: "For security reasons, address changes are only permitted before the first delivery attempt. Please contact the seller’s customer support to request a 'Re-routing' or address correction in our system."
+    }
 ];
 
 export default function OrderFAQ() {

@@ -4,28 +4,28 @@ import Image from "next/image";
 
 const shipmentStages = [
     {
-        title: "Booked",
-        description: "Your order has been confirmed by the seller",
+        title: "Order Confirmed",
+        description: "The seller has processed your order and prepared the shipment.",
         icon: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-219-150x150.png.webp"
     },
     {
-        title: "Pending Pickup",
-        description: "You will be informed upon successful order pickup",
+        title: "Pickup Manifested",
+        description: "Your package is ready and waiting for our courier partner to collect.",
         icon: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-222-150x150.png.webp"
     },
     {
-        title: "In Transit",
-        description: "Your package is on the way",
+        title: "Global Transit",
+        description: "Shipment is moving through our network hubs toward your city.",
         icon: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-224-150x150.png.webp"
     },
     {
         title: "Out for Delivery",
-        description: "The delivery partner will deliver your order to your doorstep soon",
+        description: "Our local delivery expert is on the way to your specified address.",
         icon: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/Group-225-150x150.png.webp"
     },
     {
         title: "Delivered",
-        description: "Your package has been successfully delivered",
+        description: "The journey is complete. Your package has been safely handed over.",
         icon: "https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/06/weui_location-outlined-150x150.png.webp"
     }
 ];
@@ -36,10 +36,10 @@ export default function OrderShipmentSection() {
             <div className="max-w-[1400px] mx-auto px-4 md:px-12">
                 <div className="text-center mb-12 md:mb-20">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] mb-5 md:mb-[14px]">
-                        Shipment Stages <span className="text-[#f59e0b]">Simplified</span>
+                        Understanding Your <span className="text-[#f59e0b]">Shipment Journey</span>
                     </h2>
                     <h6 className="text-[#1e3a8a] text-[16px] md:text-[18px] font-semibold">
-                        Decoding the courier tracking stages for your convenience.
+                        We believe in total transparency. Here is a detailed breakdown of the milestones your package crosses.
                     </h6>
                 </div>
 

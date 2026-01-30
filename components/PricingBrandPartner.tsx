@@ -35,7 +35,7 @@ export default function PricingBrandPartner() {
         <section className="w-full py-14 md:py-20 relative overflow-hidden bg-gradient-to-br from-[#e8eef7] via-[#f5f7fa] to-[#fef3e8]">
             <div className="max-w-[1400px] mx-auto px-4 text-center mb-10 md:mb-14 relative z-10">
                 <h2 className="text-[#1e3a8a] text-[28px] md:text-[38px] font-bold leading-tight md:mb-2">
-                    Trusted by <span className="text-[#f59e0b]">1 Lakh+</span> Growing Brands
+                    Trusted by <span className="text-[#f59e0b]">India’s</span> Growing Brands
                 </h2>
             </div>
 

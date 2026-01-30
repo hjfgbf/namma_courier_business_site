@@ -34,8 +34,8 @@ export default function PricingBlogSection() {
             <div className="max-w-[1400px] mx-auto px-6 md:px-6 lg:px-8">
                 <div className="text-center mb-9 md:mb-10">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight">
-                        From Cost Savings to <br />
-                        <span className="text-[#f59e0b]">Courier Hacks</span> - Read On
+                        Optimize Costs with <br />
+                        <span className="text-[#f59e0b]">Smart Shipping Strategies</span>
                     </h2>
                 </div>
 

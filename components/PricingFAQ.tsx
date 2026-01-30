@@ -6,48 +6,48 @@ import { HiPlus, HiMinus } from 'react-icons/hi';
 const faqData = [
     {
         id: 1,
-        question: "1. How are these shipping rates calculated?",
-        answer: "The calculation for shipping rates is based on factors like package weight, dimensions, destination, courier partner, and service type (standard, express, etc.)."
+        question: "How are the shipping rates calculated on your platform?",
+        answer: "Our engine calculates rates in real-time based on the origin/destination pin codes, dead weight, volumetric dimensions, and the specific service level (Express vs. Standard) offered by our courier partners."
     },
     {
         id: 2,
-        question: "2. Will I see all the courier options?",
-        answer: "Yes, you’ll see real-time rates from all our partnered courier services available. This allows you to compare prices and delivery times and, accordingly, choose what works best for your order."
+        question: "Will I get to see all available courier options?",
+        answer: "Absolutely. We provide a transparent side-by-side comparison of all eligible courier partners, allowing you to filter by the cheapest rates, fastest delivery times, or best performance ratings."
     },
     {
         id: 3,
-        question: "3. Is this rate final, or will it change later?",
-        answer: "The rate shown is an accurate estimate based on the details you provide. However, final charges may vary if the actual weight or dimensions differ from what was entered. Always measure your package correctly to avoid adjustments."
+        question: "Is the rate shown final, or can it change later?",
+        answer: "The quote is an accurate reflection of the data entered. However, couriers perform a 'Weight Audit' upon pickup. If the actual weight or dimensions differ from your input, price adjustments may occur. We recommend using precise measuring tools to avoid discrepancies."
     },
     {
         id: 4,
-        question: "4. Do rates differ for COD and prepaid orders?",
-        answer: "Yes. COD shipments may have an additional fee. The calculator will reflect updated rates based on the payment mode you choose."
+        question: "Are there different rates for COD vs. Prepaid orders?",
+        answer: "Yes. While base shipping rates remain similar, COD orders involve additional 'COD Collection Fees' and higher risk management costs. Our calculator factor these in automatically when you select the payment mode."
     },
     {
         id: 5,
-        question: "5. Can I ship at the shown rates without booking immediately?",
-        answer: "Yes, you can check rates anytime without booking right away. Rates are shown in real time and may change based on courier updates."
+        question: "Can I check rates without an immediate booking?",
+        answer: "Yes, you are free to use our calculator for logistics planning anytime. Please note that courier companies update their base rates periodically, so quotes are live and subject to market changes."
     },
     {
         id: 6,
-        question: "6. What happens if my package exceeds the entered weight or dimensions?",
-        answer: "If the actual weight or size is more than what was entered, couriers may apply additional charges. Always measure accurately to avoid surprises."
+        question: "What happens if my package exceeds the declared weight?",
+        answer: "In cases of weight mismatch, the courier will bill the difference as a 'Weight Discrepancy.' உங்கள் Thoothuvan provides a dedicated dashboard to help you manage and dispute these audits if necessary."
     },
     {
         id: 7,
-        question: "7. Can I calculate shipping rates for anywhere in India?",
-        answer: "Yes, our calculator supports all serviceable pin codes across India through our courier partners."
+        question: "Does the calculator cover all of India?",
+        answer: "Yes, our network covers over 27,000+ pin codes across India, including metropolitan hubs, Tier-2/3 cities, and remote regional areas."
     },
     {
         id: 8,
-        question: "8. Is there a minimum shipping volume to use the calculator?",
-        answer: "No minimum shipment required. Whether you’re shipping one order or hundreds, our platform is built for flexibility."
+        question: "Is there a minimum monthly shipment volume required?",
+        answer: "None at all. Whether you are a startup shipping your first package or a global brand moving thousands, you get access to the same competitive commercial rates."
     },
     {
         id: 9,
-        question: "9. How can I reduce my shipping costs further?",
-        answer: "Using optimal packaging, minimizing RTOs, and choosing the right courier based on your product category and zone can help reduce costs."
+        question: "How can I further optimize my shipping expenses?",
+        answer: "We recommend optimizing your box sizes to reduce volumetric weight, encouraging prepaid orders to lower COD fees, and using our 'Zone-Wise' analysis to pick the most efficient carrier for specific routes."
     },
 ];
 

@@ -13,12 +13,12 @@ export default function Footer() {
                         <div className="flex items-center gap-2 mb-5 md:mb-6">
                             <img
                                 src="/image.png"
-                                alt="NimbusPost"
+                                alt="உங்கள் Thoothuvan"
                                 className="h-14 md:h-16 w-auto object-contain"
                             />
                         </div>
                         <p className="text-[14.5px] md:text-[16px] text-white leading-[1.5] pr-0 md:pr-4 w-fullmd:w-[90%]">
-                            NimbusPost is a leading eCommerce enabler for India's new-age online businesses. Offering easy-to-use and scalable logistics and fulfillment solutions, we are building an all-in-one tech & service stack for the entire value chain – from acquisition and conversion, to post-purchase engagement and retention.
+                            உங்கள் Thoothuvan is a dedicated logistics partner empowering India's emerging online brands. We provide simplified, tech-driven shipping and fulfillment solutions designed to help your business reach new heights with reliability and personal care.
                         </p>
 
                         <div className="md:pt-2">
@@ -142,7 +142,7 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="text-[15px] text-white hover:text-[#f59e0b] transition-colors leading-relaxed"
                                 >
-                                    8th Floor, Splendor Spectrum One, Golf Course Ext Rd, Sector 58, Gurugram, Haryana 122011
+                                    Chennai, Tamil Nadu, India
                                 </a>
                             </div>
 
@@ -154,7 +154,7 @@ export default function Footer() {
                                     href="mailto:care@ungalthoothuvan.com"
                                     className="text-[16px] text-white hover:text-[#f59e0b] transition-colors"
                                 >
-                                    care@nimbuspost.com
+                                    care@ungalthoothuvan.com
                                 </a>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t border-white/10 pt-6 flex flex-col-reverse md:flex-row justify-between items-center gap-4 mt-4">
                     <p className="text-[14px] text-white">
-                        © 2026 NimbusPost. All rights reserved.
+                        © 2026 உங்கள் Thoothuvan. All rights reserved.
                     </p>
                     <div className="flex gap-6 items-center">
                         <Link href="/terms-and-conditions" className="text-[14px] text-white transition-colors">

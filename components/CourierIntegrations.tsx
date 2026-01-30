@@ -7,62 +7,62 @@ const couriers = [
     {
         name: 'Blitz',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-492-1024x386.png.webp',
-        description: 'Supercharge your eCommerce brand with Blitz’s same-day and next-day delivery. Delight your customers across 27,000+ pin codes with fast deliveries, reduce RTOs, and foster better retention and brand trust.'
+        description: 'Supercharge your brand with Blitz’s specialized same-day and next-day delivery. Reach customers across 27,000+ pin codes with speed that builds instant brand trust and high customer retention.'
     },
     {
         name: 'Blue Dart',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-493-1024x386.png.webp',
-        description: 'Ship with Blue Dart courier via NimbusPost to deliver across 19,100+ pin codes across India. Enjoy smooth pickups, express delivery for time-sensitive orders, and real-time tracking that your customers can count on.'
+        description: 'Leverage the gold standard of logistics. Through உங்கள் Thoothuvan, access Blue Dart’s premium express network covering 19,100+ pin codes with real-time tracking that never fails.'
     },
     {
         name: 'Delhivery',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-494-1024x386.png.webp',
-        description: 'With NimbusPost and Delhivery courier integration, you can ship to 18,700 pin codes with ease. Get doorstep QC on reverse pickups, smooth delivery, and live tracking to keep your customers in the loop.'
+        description: 'Our integration with Delhivery opens doors to 18,700 pin codes. Benefit from specialized doorstep quality checks on reverse pickups and a robust infrastructure for seamless heavy-goods shipping.'
     },
     {
         name: 'DTDC',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-495-1024x386.png.webp',
-        description: 'Backed by decades of experience, DTDC courier brings the most dependable logistics networks in India, along with strong infrastructure with 570+ operating facilities and a smooth delivery flow. Perfect for businesses that need reach, speed, and reliability in one place.'
+        description: 'Dependability meets reach. DTDC brings one of India’s most expansive logistics networks with 570+ facilities, offering a smooth delivery flow for businesses that prioritize reliability above all else.'
     },
     {
         name: 'Ekart',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Group-496-1024x386.png.webp',
-        description: 'Move your orders faster with Ekart’s strong express network across 15,000 pin codes. From COD to prepaid, surface to air, Ekart courier keeps your shipments moving and your operations stress-free. Plus, track everything in real time to stay in control.'
+        description: 'Utilize the power of India’s largest consumer supply chain. Ekart’s express network handles everything from COD to prepaid with stress-free efficiency across 15,000+ locations.'
     },
     {
         name: 'AllcargoGATI',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/gati-1.png.webp',
-        description: 'Known for its strength in bulk shipping, AllcargoGati handles high-volume orders with ease. With 100% delivery coverage across India, surface and express delivery, and 30-ton daily capacity, it’s built to meet big demands effortlessly for scaling brands like yours.'
+        description: 'The ultimate partner for bulk shipping. Gati handles high-volume demands with a 30-ton daily capacity and 100% delivery coverage, making it perfect for scaling eCommerce brands.'
     },
     {
         name: 'Pikndel',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Pickndel-1024x386.png.webp',
-        description: 'Pikndel lets you deliver in one hour, the same day, or the next day. With its lightning-fast eCommerce delivery options, you can ship in record time to win on both convenience and customer satisfaction.'
+        description: 'Win on convenience with ultra-fast options. Whether it’s one-hour, same-day, or next-day delivery, Pikndel ensures your local customers never have to wait for their orders.'
     },
     {
         name: 'Professional Couriers',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Professional-Couriers-1024x386.png.webp',
-        description: 'Professional Couriers blends affordability with dependable service. Ship documents, high-value goods, or urgent cargo across 70,000+ locations with full tracking and support, minus the stress.'
+        description: 'Affordability meets massive scale. Ship documents or high-value cargo across 70,000+ locations with a trusted name that balances cost-effectiveness with consistent performance.'
     },
     {
         name: 'Shadowfax',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Shadowfax-2-1024x386.png.webp',
-        description: 'Shadowfax brings you high-speed delivery with vast reach. Whether you need same-day, next-day, or hyperlocal delivery, ship with Shadowfax, a partner trusted by India’s top eCommerce brands.'
+        description: 'The preferred choice for modern eCommerce. Shadowfax provides high-speed hyperlocal and nationwide reach, making it the go-to partner for fast-moving D2C brands.'
     },
     {
         name: 'Shree Maruti',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Shreemaruti-1024x386.png.webp',
-        description: 'Backed by over 40 years of logistics experience, Shree Maruti courier brings reliable delivery to 5400+ locations. Tap into their wide reach and on-time delivery strength to simplify your eCommerce shipping.'
+        description: 'With over 40 years of logistics heritage, Shree Maruti provides rock-solid delivery to 5400+ locations. Tap into their traditional strength with our modern tech integration.'
     },
     {
         name: 'Trackon',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Trackon-1-1024x386.png.webp',
-        description: 'Trackon courier brings two decades of delivery experience with Prime Track service for faster deliveries. From express cargo and COD to reverse pickups and risk cover, it’s built to keep your orders moving and your customers happy.'
+        description: 'Experience the Prime Track service for urgent shipments. From risk cover to efficient reverse pickups, Trackon is built to keep your business moving at a steady pace.'
     },
     {
         name: 'XpressBees',
         image: 'https://d38jyoj3z4z76f.cloudfront.net/wp-content/uploads/2025/07/Xpressbees-1024x386.png.webp',
-        description: 'XpressBees is built for high-volume, fast-moving brands. Over 35,000 businesses count on it for quick and reliable shipping. Reach 19000+ pin codes across India with same-day, next-day delivery.'
+        description: 'Built for speed and high volume. Join 35,000+ businesses using XpressBees for reliable nationwide shipping, covering 19,000+ pin codes with a massive fleet.'
     }
 ];
 
@@ -109,7 +109,7 @@ export default function CourierIntegrations() {
                         </div>
                         <h3 className="text-[#1e3a8a] text-[24px] md:text-[28px] font-bold mb-3">Elastic Run</h3>
                         <p className="text-[#1e3a8a] text-[14px] md:text-[15.5px] leading-normal">
-                            With over 1.5 million shipments a day and deep reach across India, Elastic Run is designed to handle your growing shipping needs without breaking a sweat.
+                            Scale without limits. With a massive deep-reach network across the heart of India, Elastic Run handles high-capacity shipping needs with unparalleled stability.
                         </p>
                     </div>
 
@@ -127,10 +127,10 @@ export default function CourierIntegrations() {
 
                         <div className="relative z-10 w-full md:w-[50%] px-1 md:px-3 order-1 md:order-none">
                             <h3 className="text-white text-[24px] md:text-[28px] font-bold leading-tight mb-5">
-                                Not Sure Which <br /> is Economical?
+                                Optimize Your <br /> Shipping Costs
                             </h3>
                             <p className="text-white text-[14px] md:text-[15.5px] mb-5 max-w-[450px]">
-                                Try our rate calculator to compare courier rates in seconds and ship at the best rates.
+                                Don't guess which courier is the cheapest. Use our intelligent rate calculator to compare real-time prices and choose the best fit for your budget.
                             </p>
                             <button className="bg-[#f59e0b] text-white px-6 py-2 rounded-full text-[14px] md:text-[16px] font-bold hover:bg-white hover:text-[#1e3a8a] transition-all duration-300 cursor-pointer">
                                 Calculate Now

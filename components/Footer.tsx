@@ -87,42 +87,42 @@ export default function Footer() {
                         <h3 className="text-[21px] md:text-[22px] font-bold mb-3 md:mb-2">Features</h3>
                         <ul className="space-y-[14px]">
                             <li>
-                                <Link href="/features/cod" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Branded Tracking Page
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/cod" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Cash on Delivery
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/pin-codes" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Serviceable Pin Codes
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/api" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     API Integration
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/pickup" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Multiple Pickup Locations
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/labels" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Print Shipping Labels
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/notifications" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Email & SMS Notifications
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/features/amazon" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
+                                <Link href="#" className="text-white hover:text-[#f59e0b] transition-colors text-[16px]">
                                     Amazon Self-Ship
                                 </Link>
                             </li>
@@ -197,11 +197,11 @@ export default function Footer() {
                         © 2026 உங்கள் Thoothuvan. All rights reserved.
                     </p>
                     <div className="flex gap-6 items-center">
-                        <Link href="/terms-and-conditions" className="text-[14px] text-white transition-colors">
+                        <Link href="/policies/terms-and-conditions" className="text-[14px] text-white transition-colors">
                             Terms and Conditions
                         </Link>
                         <span className="text-white text-[14px]">|</span>
-                        <Link href="/privacy-policy" className="text-[13px] text-white transition-colors">
+                        <Link href="/policies/privacy-policy" className="text-[13px] text-white transition-colors">
                             Privacy Policy
                         </Link>
                     </div>

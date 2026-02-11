@@ -135,7 +135,7 @@ export default function Navbar() {
                             </div>
 
                             <div className="relative group h-full flex items-center cursor-pointer">
-                                <Link href="#" className="hover:text-[#f59e0b] transition-colors relative flex items-center">
+                                <Link href="/checkout" className="hover:text-[#f59e0b] transition-colors relative flex items-center">
                                     Checkout
                                     {/*
                                         <span className="absolute -top-1 -right-8 bg-[#fce7f3] text-[#be185d] text-[10px] font-bold px-1.5 py-0.5 rounded-sm">NEW</span>
@@ -178,7 +178,7 @@ export default function Navbar() {
                             <Link href="#" className="text-gray-900 font-semibold text-[16px]">Partners</Link>
                             <Link href="#" className="text-gray-900 font-semibold text-[16px]">Resources</Link>
                             <Link href="#" className="text-gray-900 font-semibold text-[16px]">Pricing</Link>
-                            <Link href="#" className="text-gray-900 font-semibold text-[16px]">Checkout</Link>
+                            <Link href="/checkout" className="text-gray-900 font-semibold text-[16px]">Checkout</Link>
                             <Link href="#" className="text-gray-900 font-semibold text-[16px]">Track Order</Link>
                             <div className="pt-4 flex flex-row gap-3">
                                 <Link href="#" className="w-full text-center text-[15px] md:text-[16px] py-1.5 md:py-3 bg-[#F1F2F4] rounded-full text-[#1e3a8a] font-semibold">Login</Link>

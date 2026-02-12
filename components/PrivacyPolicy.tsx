@@ -24,6 +24,9 @@ export default function PrivacyPolicy() {
                 <div className="prose prose-blue max-w-none text-[#4b5563] text-[14px] md:text-[16px] leading-relaxed">
                     <div className="space-y-3 md:space-y-4">
                         <p>
+                            This platform is owned and operated by <strong>Namma Courier and Logistics Services Private Limited</strong>. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.
+                        </p>
+                        <p>
                             This Privacy Policy explains how உங்கள் Thoothuvan Logistics and its affiliates (collectively "we," "us," or "our") collect, use, and process your personal information. As a logistics and shipping platform, we handle data necessary for the successful delivery of shipments and the efficient operation of our services via our website and mobile application. By using our platform, you consent to the practices described in this policy.
                         </p>
 

@@ -24,6 +24,10 @@ export default function TermsAndConditions() {
                 <div className="prose prose-blue max-w-none text-[#4b5563] text-[14px] md:text-[16px] leading-relaxed">
                     <div className="space-y-3 md:space-y-4">
                         <p>
+                            This platform is owned and operated by <strong>Namma Courier and Logistics Services Private Limited</strong>. We are committed to providing reliable, tech-driven shipping solutions while ensuring professional clarity in all our business relationships.
+                        </p>
+
+                        <p>
                             Welcome to உங்கள் Thoothuvan Logistics. These Terms and Conditions govern your use of our platform and the shipping, warehousing, and fulfillment services we provide. By using our platform or booking our services, you agree to comply with these terms.
                         </p>
 

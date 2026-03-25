@@ -1,26 +1,41 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 export default function OrderHeroSection() {
     const [trackingType, setTrackingType] = useState<"awb" | "orderId">("awb");
 
     return (
-        <section className="relative w-full pt-10 pb-12 md:py-16 bg-gradient-to-br from-[#e8eef7] via-[#f5f7fa] to-[#fef3e8] overflow-hidden">
-            <div className="max-w-[1400px] mx-auto px-5 md:px-8 relative z-10">
-                <div className="flex flex-col lg:flex-row items-start justify-between gap-10 md:gap-0">
+        <section className="relative w-full flex flex-col justify-center bg-black min-h-screen overflow-hidden">
+            <div className="absolute inset-0 z-0 pointer-events-none">
+                <Image
+                    src="/land.png"
+                    // src="/world-map.jpeg"
+                    alt="World Map Background"
+                    fill
+                    className="object-cover object-left md:object-center"
+                    priority
+                />
+
+                <div className="absolute inset-0 bg-[#1e3a8a]/40 z-10" />
+                {/* <div className="absolute inset-0 bg-black/70 z-10" /> */}
+            </div>
+
+            <div className="max-w-[1400px] w-full mx-auto px-5 md:px-8 relative z-20">
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-10 md:gap-0">
                     <div className="w-full lg:w-[500px] text-center md:text-left">
                         <h1 className="text-[30px] md:text-[50px] font-bold leading-tight mb-5">
-                            <span className="text-[#f59e0b]">Real-Time </span>
-                            <span className="text-[#1e3a8a]">Visibility for Every Shipment</span>
+                            <span className="text-[#f59e0b]">Real-Time Visibility </span>
+                            <span className="text-gray-200">for Every Shipment</span>
                         </h1>
-                        <p className="text-[#1e3a8a] text-[15.5px] md:text-[17.5px] font-semibold max-w-[500px]">
+                        <p className="text-gray-200 text-[15.5px] md:text-[17.5px] font-semibold max-w-[500px]">
                             Stay informed at every turn. Use the உங்கள் Thoothuvan intelligent tracking engine to monitor your delivery progress.
                         </p>
                     </div>
 
                     <div className="w-full lg:w-[610px]">
-                        <div className="bg-white rounded-[12px] shadow-[0_0_20px_rgba(0,0,0,0.2)] py-4 px-5 md:px-6">
+                        <div className="bg-gray-100 rounded-[12px] shadow-[0_0_20px_rgba(0,0,0,0.2)] py-4 px-5 md:px-6">
                             <h3 className="text-[#1e3a8a] text-[17px] md:text-[18px] font-bold mb-5">Track Your Order</h3>
                             <form onSubmit={(e) => e.preventDefault()}>
                                 <div className="mb-4">

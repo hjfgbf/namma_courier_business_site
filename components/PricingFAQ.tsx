@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { HiPlus, HiMinus } from 'react-icons/hi';
+import { HiChevronDown } from 'react-icons/hi';
 
 const faqData = [
     {
@@ -60,33 +60,36 @@ export default function PricingFAQ() {
 
     return (
         <section className="bg-white w-full pt-2 md:pt-6 pb-1 md:pb-0">
-            <div className="max-w-[1400px] mx-auto px-5 md:px-8">
-                <div className="bg-gradient-to-br from-[#e8f0fe] to-[#f0f4ff] rounded-[16px] px-6 pt-8 pb-4 md:pt-14 md:pb-7">
-                    <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] text-center mb-2 md:mb-8 leading-tight md:leading-normal">
-                        <span className='text-[#f59e0b]'>Got Questions?</span> We’ve Got You Covered
+            <div className="max-w-[1400px] mx-auto">
+                <div className="bg-gradient-to-br from-[#e8f0fe] to-[#f0f4ff] rounded-[16px] px-5 md:px-8 pt-8 pb-10 md:pt-14 md:pb-16">
+                    <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] text-center mb-6 md:mb-8 leading-tight md:leading-normal">
+                        Frequently Asked Questions
                     </h2>
 
-                    <div className="w-full max-w-[1100px] mx-auto">
+                    <div className="w-full max-w-[1100px] mx-auto space-y-5 md:space-y-6">
                         {faqData.map((item) => (
-                            <div key={item.id} className="border-b border-gray-300 last:border-none">
+                            <div
+                                key={item.id}
+                                className="bg-white rounded-[16px] shadow-[0_10px_30px_rgba(0,0,0,0.04)] border border-gray-100 overflow-hidden transition-all duration-300"
+                            >
                                 <button
                                     onClick={() => toggleAccordion(item.id)}
-                                    className="w-full flex items-center justify-between py-5 md:py-6.5 text-left focus:outline-none group"
+                                    className="w-full flex items-center justify-between px-5 md:px-8 py-5 md:py-7 text-left focus:outline-none group"
                                 >
-                                    <span className="text-[#1e3a8a] text-[15.5px] md:text-[17.5px] font-medium tracking-wide transition-colors duration-300">
+                                    <span className="text-[#1e3a8a] text-[15.5px] md:text-[17.5px] font-semibold tracking-wide transition-colors duration-300">
                                         {item.question}
                                     </span>
-                                    <span className="text-[#1e3a8a] text-xl ml-4">
-                                        {openId === item.id ? <HiMinus /> : <HiPlus />}
-                                    </span>
+                                    <HiChevronDown
+                                        className={`text-[#1e3a8a] text-2xl transition-transform duration-300 ${openId === item.id ? 'rotate-180' : ''}`}
+                                    />
                                 </button>
                                 <div
                                     className={`grid overflow-hidden transition-all duration-300 ease-in-out ${openId === item.id ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
                                         }`}
                                 >
                                     <div className="overflow-hidden">
-                                        <div className="pb-5">
-                                            <p className="text-[#1e3a8a] text-[14px] md:text-[16px] font-medium leading-snug mb-2 md:mb-3.5 md:w-[95%]">
+                                        <div className="px-6 md:px-8 pb-5">
+                                            <p className="text-[#1e3a8a] text-[14.5px] md:text-[16.5px] font-medium leading-normal mb-2 md:mb-3.5 md:w-[95%]">
                                                 {item.answer}
                                             </p>
                                         </div>

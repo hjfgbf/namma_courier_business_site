@@ -40,26 +40,28 @@ export default function PricingShippingCost() {
     return (
         <section className="w-full bg-white py-14 md:py-20">
             <div className="max-w-[1400px] mx-auto px-5 md:px-[90px]">
-                <div className="text-center mb-12 md:mb-16">
+                <div className="text-center mb-10 md:mb-16">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight">
                         Looking to <span className="text-[#f59e0b]">Maximize Your Logistics <br className="hidden md:block" /> Savings</span> Effortlessly?
                     </h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-20 max-w-[1200px] mx-auto mb-12 md:mb-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-12 md:gap-y-14 max-w-[1100px] mx-auto mb-12 md:mb-16">
                     {features.map((feature, index) => (
-                        <div key={index} className="flex gap-5 items-start">
-                            <div className="flex-shrink-0 relative flex items-center justify-center text-[#1e3a8a]">
-                                <feature.icon size={32} className="text-[#1e3a8a] md:w-8 md:h-8 w-6 h-6" strokeWidth={1.5} />
+                        <div key={index} className="flex flex-col items-center text-center">
+                            <div className="mb-5 flex items-center justify-center">
+                                <feature.icon
+                                    size={60}
+                                    className="text-[#1e3a8a]"
+                                    strokeWidth={1}
+                                />
                             </div>
-                            <div>
-                                <h3 className="text-[#1e3a8a] text-[18px] font-bold mb-3 leading-snug">
-                                    {feature.title}
-                                </h3>
-                                <p className="text-[#1e3a8a] text-[14px] md:text-[16px] leading-snug">
-                                    {feature.description}
-                                </p>
-                            </div>
+                            <h3 className="text-[#1e3a8a] text-[17px] md:text-[18px] font-bold mb-2 md:mb-3 leading-snug">
+                                {feature.title}
+                            </h3>
+                            <p className="text-[#1e3a8a] text-[14px] md:text-[15px] leading-relaxed max-w-[300px] md:max-w-[260px]">
+                                {feature.description}
+                            </p>
                         </div>
                     ))}
                 </div>

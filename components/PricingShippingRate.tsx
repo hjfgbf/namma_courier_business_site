@@ -31,6 +31,8 @@ export default function PricingShippingRate() {
     return (
         <section className="w-full bg-white py-10 md:py-20 overflow-hidden">
             <div className="max-w-[1400px] mx-auto px-5 md:px-10">
+
+                {/* Section heading */}
                 <div className="text-center mb-14">
                     <h2 className="text-[28px] md:text-[38px] font-bold text-[#1e3a8a] leading-tight mb-2">
                         Instant Shipping Quotes in <span className="text-[#f59e0b]">3 Simple Steps</span>
@@ -40,42 +42,92 @@ export default function PricingShippingRate() {
                     </p>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-20 md:gap-0 md:justify-between items-stretch relative">
-                    {steps.map((step, index) => (
-                        <div key={index} className="relative z-10 w-full md:w-auto mx-auto md:mx-0 pt-10">
-                            <div className="absolute top-0 left-0 bg-[#f0f4fa] text-[#f59e0b] font-bold pt-2 pb-10 pl-3 pr-10 rounded-t-[12px] z-0 text-[17px]">
-                                Step {step.id}
-                            </div>
+                {/* ── Desktop: Vertical Alternating Timeline ── */}
+                <div className="hidden md:block relative max-w-[860px] mx-auto">
 
-                            <div className="relative z-10 w-full md:w-[300px] h-full bg-gradient-to-br from-[#0f2557] via-[#1e3a8a] to-[#2563eb] rounded-[16px] p-5 pb-6 flex flex-col items-center text-start duration-300">
-                                <div className="relative w-full h-auto mb-6">
+                    {/* Dashed vertical center line */}
+                    <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 w-[2px] border-l-2 border-dashed border-gray-300 z-0" />
+
+                    {steps.map((step, index) => {
+                        const cardOnRight = index % 2 === 0;
+                        return (
+                            <div
+                                key={index}
+                                className={`relative z-10 flex items-center w-full mb-16 last:mb-0 ${cardOnRight ? 'flex-row' : 'flex-row-reverse'}`}
+                            >
+                                {/* Number side */}
+                                <div className={`flex-1 flex ${cardOnRight ? 'justify-end pr-14' : 'justify-start pl-14'}`}>
+                                    <span
+                                        className="text-[100px] font-black leading-none select-none"
+                                        style={{
+                                            WebkitTextStroke: '2.5px #1e3a8a',
+                                            color: 'transparent',
+                                            opacity: 0.9,
+                                        }}
+                                    >
+                                        {step.id}
+                                    </span>
+                                </div>
+
+                                {/* Center icon circle */}
+                                <div className="flex-shrink-0 w-[62px] h-[62px] rounded-full bg-[#1e3a8a] flex items-center justify-center z-10 shadow-xl ring-[5px] ring-white">
                                     <Image
                                         src={step.image}
                                         alt={step.alt}
-                                        width={600}
-                                        height={600}
-                                        className="w-full h-auto object-contain"
+                                        width={32}
+                                        height={32}
+                                        className="w-8 h-8 object-contain brightness-0 invert"
                                     />
                                 </div>
 
-                                <div className="mt-auto">
-                                    <h3 className="text-white text-[16.5px] md:text-[18px] font-bold mb-3">
-                                        {step.title}
-                                    </h3>
-                                    <p className="text-white text-[14px] md:text-[16px] leading-snug">
-                                        {step.description}
-                                    </p>
+                                {/* Card side */}
+                                <div className={`flex-1 flex ${cardOnRight ? 'justify-start pl-14' : 'justify-end pr-14'}`}>
+                                    <div className="bg-white rounded-[14px] shadow-lg border border-gray-100 p-6 w-full max-w-[280px]">
+                                        <h3 className="text-[#1e3a8a] font-bold text-[18px] mb-2 leading-snug">
+                                            {step.title}
+                                        </h3>
+                                        <p className="text-gray-500 text-[14.5px] leading-relaxed">
+                                            {step.description}
+                                        </p>
+                                    </div>
                                 </div>
+                            </div>
+                        );
+                    })}
+                </div>
+
+                {/* Mobile */}
+                <div className="flex md:hidden flex-col gap-8 relative pl-4">
+                    <div className="absolute left-[40px] top-0 bottom-0 w-[2px] border-l-2 border-dashed border-gray-300 z-0" />
+                    {steps.map((step, index) => (
+                        <div key={index} className="relative z-10 flex items-center gap-5">
+                            {/* Icon circle */}
+                            <div className="flex-shrink-0 w-[52px] h-[52px] rounded-full bg-[#1e3a8a] flex items-center justify-center shadow-lg ring-4 ring-white">
+                                <Image
+                                    src={step.image}
+                                    alt={step.alt}
+                                    width={26}
+                                    height={26}
+                                    className="w-6 h-6 object-contain brightness-0 invert"
+                                />
+                            </div>
+                            {/* Card */}
+                            <div className="bg-white rounded-[14px] shadow-lg border border-gray-100 p-5 flex-1">
+                                <p className="text-[#f59e0b] font-bold text-[11px] mb-1 tracking-widest uppercase">Step {step.id}</p>
+                                <h3 className="text-[#1e3a8a] font-bold text-[17px] mb-1.5 leading-snug">{step.title}</h3>
+                                <p className="text-gray-500 text-[14px] leading-relaxed">{step.description}</p>
                             </div>
                         </div>
                     ))}
                 </div>
 
+                {/* CTA button */}
                 <div className="text-center mt-10 md:mt-16">
                     <button className="bg-[#f59e0b] text-white text-[14px] md:text-[16px] font-bold px-6 py-2 rounded-full hover:bg-[#1e3a8a] transition-colors cursor-pointer">
                         Start Free
                     </button>
                 </div>
+
             </div>
         </section>
     );

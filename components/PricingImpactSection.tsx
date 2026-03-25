@@ -35,8 +35,8 @@ export default function PricingImpactSection() {
         <section className="w-full bg-gradient-to-br from-[#0f2557] via-[#1e3a8a] to-[#2563eb] py-10 md:py-[70px] relative overflow-hidden">
             <div className="max-w-[1400px] mx-auto px-5 md:px-8">
                 <div className="flex flex-col md:flex-row items-center text-center md:text-start gap-10 md:gap-0">
-                    <div className="w-full md:w-[575px]">
-                        <h2 className="w-full md:w-[70%] text-[28px] md:text-[38px] font-bold text-white leading-tight mb-5">
+                    <div className="w-full">
+                        <h2 className="w-full md:w-[90%] text-[28px] md:text-[38px] font-bold text-white leading-tight mb-5">
                             Master the Variables That Impact Your Bottom Line
                         </h2>
                         <p className="text-white text-[15px] md:text-[17px] font-semibold leading-relaxed max-w-[550px] ">
@@ -44,8 +44,8 @@ export default function PricingImpactSection() {
                         </p>
                     </div>
 
-                    <div className="w-full md:w-[625px]">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-5 md:gap-y-4">
+                    <div className="w-full">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-x-5 md:gap-y-4">
                             {impactFeatures.map((feature, index) => (
                                 <div key={index} className="bg-white rounded-[12px] py-4 px-3 flex items-center gap-4 shadow-lg hover:shadow-xl transition-shadow cursor-default group">
                                     <div className="flex-shrink-0 relative flex items-center justify-center text-[#f59e0b] transition-colors duration-300">
